@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<students>
+    <student>
+        <id>1</id>
+        <name>Nguyễn Công Phong</name>
+        <age>19</age>
+        <address>Bắc Ninh</address>
+        <gymsclass>Giảm Cân</gymsclass>
+        <gymsroom>Phòng 5</gymsroom>
+        <trainer>Nguyễn D</trainer>
+    </student>
+    <student>
+        <id>2</id>
+        <name>Nguyễn Phi Hùng</name>
+        <age>20</age>
+        <address>Thái Bình</address>
+        <gymsclass>Cơ Chân</gymsclass>
+        <gymsroom>Phòng 8</gymsroom>
+        <trainer>Nguyễn B</trainer>
+    </student>
+    <student>
+        <id>3</id>
+        <name>Nguyễn Thị Hà</name>
+        <age>19</age>
+        <address>Hà Tây</address>
+        <gymsclass>YoGa</gymsclass>
+        <gymsroom>Phòng 2</gymsroom>
+        <trainer>Nguyễn E</trainer>
+    </student>
+    <student>
+        <id>4</id>
+        <name>Nguyễn Thị Ngọc Trâm</name>
+        <age>19</age>
+        <address>Bắc Giang</address>
+        <gymsclass>YoGa</gymsclass>
+        <gymsroom>Phòng 6</gymsroom>
+        <trainer>Nguyễn A</trainer>
+    </student>
+</students>
