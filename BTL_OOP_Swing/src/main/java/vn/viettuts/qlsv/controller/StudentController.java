@@ -174,7 +174,7 @@ public class StudentController {
         result.append("Thong ke tuoi sinh vien:\n");
         for (int i = 0; i <= maxAge; i++) {
             if (ageCount[i] > 0) {
-                result.append("Số người ").append(i).append(" tuổi là: ").append(ageCount[i]).append("\n");
+                result.append("Số người ").append(i).append(" tuổi là: ").append(ageCount[i]).append(" người").append("\n");
             }
         }
         JOptionPane.showMessageDialog(studentView, result.toString());
