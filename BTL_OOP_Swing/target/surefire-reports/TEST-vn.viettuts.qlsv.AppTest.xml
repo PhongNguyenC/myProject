@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="vn.viettuts.qlsv.AppTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="vn.viettuts.qlsv.AppTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="19.0.2+7-44"/>
@@ -14,6 +14,7 @@
     <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="vn.viettuts.qlsv.AppTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="D:\dowload\qlsv-swing\BTL_OOP_Swing"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
@@ -46,7 +47,7 @@
     <property name="java.class.path" value="D:\Apps\NetBeans-17\netbeans\java\maven\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="19"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=D:\Apps\NetBeans-17\netbeans\java\maven-nblib\netbeans-eventspy.jar --no-transfer-progress clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=vn.viettuts.qlsv.AppTest -Dmaven.ext.class.path=D:\Apps\NetBeans-17\netbeans\java\maven-nblib\netbeans-eventspy.jar --no-transfer-progress surefire:test"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -62,5 +63,5 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="vn.viettuts.qlsv.AppTest" name="testApp" time="0.005"/>
+  <testcase classname="vn.viettuts.qlsv.AppTest" name="testApp" time="0.004"/>
 </testsuite>
