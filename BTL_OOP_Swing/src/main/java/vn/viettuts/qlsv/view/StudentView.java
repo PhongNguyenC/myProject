@@ -106,7 +106,7 @@ public class StudentView extends JFrame implements ActionListener, ListSelection
         trainerField = new JTextField(15);
         seachStudentField = new JTextField(15);
         
-//        Thêm item cho combobox gymsclass
+//        Thêm các item cho combobox gymsclass
         gymsclassComboBox.addItem("Tăng Cân");
         gymsclassComboBox.addItem("Giảm Cân");
         gymsclassComboBox.addItem("YoGa");
@@ -114,7 +114,7 @@ public class StudentView extends JFrame implements ActionListener, ListSelection
         gymsclassComboBox.addItem("Cơ Tay");
         gymsclassComboBox.addItem("Toàn Thân");
         
-//        Thêm item cho combobox 
+//      Thêm các item cho combobox gymsroom
         gymsroomComboBox.addItem("Phòng 1");
         gymsroomComboBox.addItem("Phòng 2");
         gymsroomComboBox.addItem("Phòng 4");
@@ -245,7 +245,7 @@ public class StudentView extends JFrame implements ActionListener, ListSelection
         // với bảng studentTable có 7 cột, 
         // khởi tạo mảng 2 chiều students, trong đó:
         // số hàng: là kích thước của list student 
-        // số cột: là   
+        // số cột: là 7
         Object [][] students = new Object[size][7];
         for (int i = 0; i < size; i++) {
             students[i][0] = list.get(i).getId();

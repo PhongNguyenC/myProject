@@ -1,9 +1,9 @@
 vn\viettuts\qlsv\controller\StudentController$ListStudentSelectionListener.class
-vn\viettuts\qlsv\App.class
 vn\viettuts\qlsv\controller\StudentController$SeachStudentListener.class
 vn\viettuts\qlsv\dao\StudentDao.class
+vn\viettuts\qlsv\app\App.class
+vn\viettuts\qlsv\app\App$1.class
 vn\viettuts\qlsv\controller\StudentController$StatisticsListener.class
-vn\viettuts\qlsv\App$1.class
 vn\viettuts\qlsv\controller\LoginController$LoginListener.class
 vn\viettuts\qlsv\controller\StudentController$ClearStudentListener.class
 vn\viettuts\qlsv\controller\StudentController$AddStudentListener.class

@@ -1,9 +1,7 @@
 package vn.viettuts.qlsv.view;
 
-import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import javax.swing.ImageIcon;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -24,7 +22,6 @@ public class LoginView extends JFrame implements ActionListener {
     private JPasswordField passwordField;
     private JTextField userNameField;
     private JButton loginBtn;
-    private JLabel imageLabel;
     
     
 

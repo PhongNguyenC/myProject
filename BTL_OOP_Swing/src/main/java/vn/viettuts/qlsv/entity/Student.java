@@ -1,7 +1,6 @@
 package vn.viettuts.qlsv.entity;
 
 import java.io.Serializable;
-import java.time.LocalDate;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
