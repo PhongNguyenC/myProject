@@ -3,6 +3,8 @@ package vn.viettuts.qlsv.view;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 import java.util.List;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
@@ -105,8 +107,8 @@ public class StudentView extends JFrame implements ActionListener, ListSelection
         gymsroomComboBox = new JComboBox();
         trainerField = new JTextField(15);
         seachStudentField = new JTextField(15);
-
-        /* THêm các item cho ComboBox loại hình */
+        
+//        JComboBox<String> gymsclassComboBox = new JComboBox<>();
         gymsclassComboBox.addItem("Tăng Cân");
         gymsclassComboBox.addItem("Giảm Cân");
         gymsclassComboBox.addItem("YoGa");
@@ -114,7 +116,7 @@ public class StudentView extends JFrame implements ActionListener, ListSelection
         gymsclassComboBox.addItem("Cơ Tay");
         gymsclassComboBox.addItem("Toàn Thân");
         
-        /* Thêm các item cho ComboBox Phòng tập*/
+//        JComboBox<String> gymsroomComboBox = new JComboBox<>();
         gymsroomComboBox.addItem("Phòng 1");
         gymsroomComboBox.addItem("Phòng 2");
         gymsroomComboBox.addItem("Phòng 4");
@@ -242,10 +244,10 @@ public class StudentView extends JFrame implements ActionListener, ListSelection
      */
     public void showListStudents(List<Student> list) {
         int size = list.size();
-        // với bảng studentTable có 7 cột, 
+        // với bảng studentTable có 5 cột, 
         // khởi tạo mảng 2 chiều students, trong đó:
         // số hàng: là kích thước của list student 
-        // số cột: là 7
+        // số cột: là 5
         Object [][] students = new Object[size][7];
         for (int i = 0; i < size; i++) {
             students[i][0] = list.get(i).getId();

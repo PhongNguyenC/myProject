@@ -1,6 +1,7 @@
 package vn.viettuts.qlsv.entity;
 
 import java.io.Serializable;
+import java.time.LocalDate;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -14,9 +15,7 @@ public class Student implements Serializable {
     private String name;
     private byte age;
     private String address;
-    /**
-     * Loại hình, phòng tập, huấn luyện viên của phòng Gyms
-     */
+    /* điểm trung bình của sinh viên */
     private String gymsclass;
     private String gymsroom;
     private String trainer;

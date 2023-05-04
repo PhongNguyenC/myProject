@@ -60,9 +60,9 @@ public class StudentDao {
    public void add(Student student) {
         int id = 1;
         if (listStudents != null && listStudents.size() > 0) {
-            // Lấy STT lớn nhất hiện có trong danh sách sinh viên
+            // Lấy ID lớn nhất hiện có trong danh sách sinh viên
             int maxId = listStudents.stream().mapToInt(Student::getId).max().getAsInt();
-            // Tăng STT lên 1 đơn vị
+            // Tăng ID lên 1 đơn vị
             id = maxId + 1;
         }
         student.setId(id);
@@ -130,7 +130,7 @@ public class StudentDao {
     }
 
     /**
-     * sắp xếp danh sách student theo Gymsclass theo tứ tự tăng dần
+     * sắp xếp danh sách student theo GPA theo tứ tự tăng dần
      */
     public void sortStudentByGymsclass() {
         Collections.sort(listStudents, new Comparator<Student>() {
@@ -140,12 +140,6 @@ public class StudentDao {
         });
     }
 
-    
-    /**
-     * Tìm kiếm danh sách học sinh theo Name hoặc Address
-     * @param keyword
-     * @return 
-     */
     public List<Student> seach(String keyword) {
         List<Student> resultList = new ArrayList<>();
         for (Student student : listStudents) {
