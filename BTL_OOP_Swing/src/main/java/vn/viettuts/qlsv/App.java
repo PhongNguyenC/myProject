@@ -1,4 +1,4 @@
-package vn.viettuts.qlsv.app;
+package vn.viettuts.qlsv;
 
 import java.awt.EventQueue;
 
