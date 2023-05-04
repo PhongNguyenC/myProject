@@ -3,8 +3,6 @@ package vn.viettuts.qlsv.view;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
 import java.util.List;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
@@ -247,7 +245,7 @@ public class StudentView extends JFrame implements ActionListener, ListSelection
         // với bảng studentTable có 7 cột, 
         // khởi tạo mảng 2 chiều students, trong đó:
         // số hàng: là kích thước của list student 
-        // số cột: là  
+        // số cột: là   
         Object [][] students = new Object[size][7];
         for (int i = 0; i < size; i++) {
             students[i][0] = list.get(i).getId();
